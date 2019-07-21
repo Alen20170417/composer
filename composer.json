@@ -1,22 +1,14 @@
 {
-    "require": {
-        "yiisoft/yii2": "2.0.11.2"
-    },
-    "require-dev": {
-        "yiisoft/yii2-gii": "^2.0",
-        "yiisoft/yii2-debug": "^2.0",
-        "yiisoft/yii2-faker": "^2.0",
-        "codeception/base": "^2.2",
-        "codeception/verify": "^0.3.3",
-        "yiisoft/yii2-codeception": "^2.0"
-    },
-    "repositories": [
+    "name": "allen/composer",
+    "description": "it is allen's composer package test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
         {
-            "type": "composer",
-            "url": "http://satis-test.myspacex.cn/"
+            "name": "曹成锋",
+            "email": "caocf@mingyuanyun.com"
         }
     ],
-    "config": {
-        "secure-http": false
-    }
+    "minimum-stability": "dev",
+    "require": {}
 }
