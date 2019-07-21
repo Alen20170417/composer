@@ -1,0 +1,22 @@
+{
+    "require": {
+        "yiisoft/yii2": "2.0.11.2"
+    },
+    "require-dev": {
+        "yiisoft/yii2-gii": "^2.0",
+        "yiisoft/yii2-debug": "^2.0",
+        "yiisoft/yii2-faker": "^2.0",
+        "codeception/base": "^2.2",
+        "codeception/verify": "^0.3.3",
+        "yiisoft/yii2-codeception": "^2.0"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://satis-test.myspacex.cn/"
+        }
+    ],
+    "config": {
+        "secure-http": false
+    }
+}
